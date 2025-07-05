@@ -25,12 +25,13 @@ component-react-tailwind-ui/
 │   │   ├── Navbar.jsx
 │   │   └── ...
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.lock.json
+└── package.json
 ```
 
 ---
@@ -78,21 +79,12 @@ function App() {
 
 ---
 
-## 🧱 Daftar Komponen (Contoh)
+## 🧱 Daftar Komponen
 
 | Komponen  | Deskripsi                           |
 |-----------|-------------------------------------|
 | `Button`  | Tombol interaktif berbagai ukuran   |
 | `Navbar`  | Navigasi atas responsif             |
-| `Card`    | Kotak informasi dengan gambar/text  |
-| `Modal`   | Dialog popup dengan backdrop        |
-| `Input`   | Input field dengan label dan error  |
-
----
-
-## 📄 Lisensi
-
-MIT License © 2025 [Azril Pramudia](https://github.com/azrilpramudia)
 
 ---
 
@@ -109,4 +101,4 @@ Jika ingin menambahkan komponen baru:
 
 ## 📸 Preview (Opsional)
 
-> Tambahkan screenshot UI jika tersedia di masa depan.
+> Tambahkan screenshot UI jika tersedia.
